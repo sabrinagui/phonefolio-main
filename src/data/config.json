@@ -1,0 +1,53 @@
+{
+  "job": "Frontend Developer",
+  "name": "Sabrina Mesquita",
+  "desc": "Viajante deste mundo, apaixonada por webdesign.",
+  "aboutDesc": "Eu sou a Sabrina Mesquita, desenvolvedora Front End e apaixonada por criar experiências digitais incríveis. Com uma forte paixão por design e funcionalidade, eu me dedico a transformar ideias em realidade através de código limpo e eficiente. Quando não estou mergulhada em linhas de código, adoro explorar o mundo ao meu redor. Viajar é uma das minhas maiores paixões, e acredito que cada nova cultura e paisagem que descubro me inspira a ser uma desenvolvedora mais criativa e inovadora.",
+  "email": "contato@sabrinamesquita.com.br",
+  "status": "on",
+  "hireMeLink": "https://wa.link/vliuss",
+  "projects": [
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "Páginas de Links",
+      "project-desc": "React + Vite",
+      "project-url": "https://linksnovo.vercel.app/"
+    },
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "Website",
+      "project-desc": "HTML, CSS e Javascript",
+      "project-url": "https://catiuciaferreira.com.br/"
+    },
+    {
+      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
+      "project-name": "Website",
+      "project-desc": "HTML, CSS e Javascript",
+      "project-url": "https://gsrsistemas.com"
+    }
+
+  ],
+  "social": [
+    {
+      "icon": "FaBehance",
+      "link": "https://www.behance.net/sabrinagui"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com/sabrinamesquitaweb"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/sabrinagui"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com/in/sabrina-mesquita-8a39a6205/"
+    },
+    {
+      "icon": "FaWhatsapp",
+      "link": "https://wa.link/vliuss"
+    }
+
+  ]
+}
