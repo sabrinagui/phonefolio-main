@@ -6,6 +6,7 @@ import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const configData = getConfigData();
