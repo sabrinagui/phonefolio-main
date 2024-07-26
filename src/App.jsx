@@ -24,6 +24,7 @@ function App() {
               
               <Social />
               <Footer />
+              <Analytics />
             </div>
           </div>
         </div>
