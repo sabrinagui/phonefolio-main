@@ -7,7 +7,7 @@ import Social from "./components/Social";
 import Footer from "./components/Footer";
 import SiteRoutes from "./routes/SiteRoutes";
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function App() {
   const configData = getConfigData();
