@@ -20,7 +20,7 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3" src="src/assets/viagemavatar.png" alt="" />
+          <img className="border rounded-md p-3" src="https://linksnovo.vercel.app/static/media/sabrina.7fb3d38bb9683e66b5eb.png" alt="SabrinaAvatar" /> 
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
