@@ -26,7 +26,7 @@ export default function Profile() {
       <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
-            I'm {configData.name}
+            Sou {configData.name}
           </h1>
           <p className="md:w-3/4 text-lg text-gray-500 text-center md:text-justify font-normal tracking-tighter">
             {configData.desc}
