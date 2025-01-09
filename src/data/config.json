@@ -20,11 +20,25 @@
       "project-url": "https://multiform-react-nzpu.vercel.app/"
     },
     {
+      "project-image-url": "https://github.com/sabrinagui/gridsites-main/blob/main/src/assets/img/Captura%20de%20tela%202025-01-06%20125543.png",
+      "project-name": "Website",
+      "project-desc": "React JS + Vue",
+      "project-url": "https://gsrsistemas.com"
+    }, 
+    {
+      "project-image-url": "https://pontofiel.com.br/wp-content/uploads/2025/01/Captura-de-tela-2025-01-09-091642.png",
+      "project-name": "Website - Sistema de Pontos",
+      "project-desc": "Wordpress + Elementor",
+      "project-url": "https://pontofiel.com.br/"
+    },
+    {
       "project-image-url": "https://www.gsrsistemas.com/wp-content/uploads/2024/11/sitegsr.png",
       "project-name": "Website",
       "project-desc": "HTML, CSS e Javascript",
       "project-url": "https://gsrsistemas.com"
     }
+
+
 
   ],
   "social": [
