@@ -3,6 +3,23 @@
   "name": "Sabrina Mesquita",
   "desc": "Crio sites, sistemas e campanhas que unem tecnologia, design e performance para gerar resultados reais.",
   "aboutDesc": "Olá, eu sou a Sabrina Mesquita, desenvolvedora web e estrategista de tráfego pago. Trabalho criando sites e sistemas personalizados que combinam performance, design e SEO, utilizando diferentes linguagens e frameworks conforme a necessidade de cada projeto. Além do desenvolvimento, atuo na gestão de campanhas no Google Ads e Meta Ads, transformando investimento em resultados mensuráveis. Meu diferencial é unir tecnologia e marketing: entrego soluções que não só funcionam, mas também geram conversões e vendas.",
+  "services": [
+    {
+      "title": "Marketing Digital",
+      "description": "Estratégias personalizadas para alcançar seu público-alvo e gerar resultados mensuráveis",
+      "features": ["Gestão de Redes Sociais", "Email Marketing", "Automação de Marketing"]
+    },
+    {
+      "title": "Tráfego Pago",
+      "description": "Campanhas otimizadas no Google Ads e Meta Ads para maximizar seu ROI",
+      "features": ["Google Ads", "Meta Ads", "Análise de Resultados"]
+    },
+    {
+      "title": "Design UI/UX",
+      "description": "Criação de interfaces intuitivas e experiências memoráveis para seus usuários",
+      "features": ["Web Design", "Design Responsivo", "Prototipagem"]
+    }
+  ],
   "email": "contato@sabrinamesquita.com.br",
   "status": "on",
   "hireMeLink": "https://wa.me/5598988925194",

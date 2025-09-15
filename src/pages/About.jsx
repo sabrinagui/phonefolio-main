@@ -1,6 +1,6 @@
 
 import CopyEmailButton from "../components/CopyEmailButton";
-
+import InstagramCarousel from "../components/InstagramCarousel";
 import { getConfigData } from "../data/configReader";
 
 export default function About() {
@@ -21,7 +21,7 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3" src="https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Design-sem-nome-1.png" alt="SabrinaAvatar" /> 
+          <img className="border rounded-md p-3 w-full max-w-sm mx-auto md:max-w-xs" src="https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Design-sem-nome-1.png" alt="SabrinaAvatar" /> 
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
@@ -59,7 +59,16 @@ export default function About() {
     <CopyEmailButton />
   </div>
 
- 
+  {/* Instagram Feed Section */}
+  <div className="w-full max-w-6xl mx-auto px-4 py-12">
+    <div className="text-center mb-8">
+      <h2 className="text-2xl font-semibold mb-2">Meu Instagram</h2>
+      <p className="text-gray-500">Acompanhe meu trabalho nas redes sociais</p>
+    </div>
+    <div className="overflow-hidden">
+      <InstagramCarousel />
+    </div>
+  </div>
 </div>
     </>
   );
