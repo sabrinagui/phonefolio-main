@@ -1,6 +1,6 @@
 
 import CopyEmailButton from "../components/CopyEmailButton";
-import InstagramFeed from "../components/InstagramPreview";
+
 import { getConfigData } from "../data/configReader";
 
 export default function About() {
@@ -59,10 +59,7 @@ export default function About() {
     <CopyEmailButton />
   </div>
 
-  {/* Instagram Feed */}
-  <div className="w-full md:w-auto mt-6">
-    <InstagramFeed />
-  </div>
+ 
 </div>
     </>
   );
