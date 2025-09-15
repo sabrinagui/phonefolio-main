@@ -8,16 +8,23 @@
   "hireMeLink": "https://wa.me/5598988925194",
   "projects": [
     {
+      "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-15-142809.png",
+      "project-name": "Site Institucional Multilíngue",
+      "project-desc": "Wordpress + Elementor Pro + Jet Engine + Crocoblock",
+      "project-url": "https://sobraltrading.com/"
+    },
+    
+    {
       "project-image-url": "http://lp.gridsites.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-03-18-095044.png",
       "project-name": "Página de Vendas - Landing Page",
       "project-desc": "Wordpress + Elementor Pro",
       "project-url": "https://lp.gridsites.com.br/"
     },
     {
-      "project-image-url": "https://github.com/sabrinagui/linksnovo/raw/main/src/assets/screenshot.png",
-      "project-name": "Páginas de Links",
+      "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/screencapture-links-gridsites-br-2025-09-15-14_25_45.png",
+      "project-name": "Páginas de Links Moderno",
       "project-desc": "React + Vite",
-      "project-url": "https://linksnovo.vercel.app/"
+      "project-url": "https://links.gridsites.com.br/"
     },
     {
       "project-image-url": "https://github.com/sabrinagui/multiform-react/raw/main/preview.png",
@@ -26,28 +33,28 @@
       "project-url": "https://multiform-react-nzpu.vercel.app/"
     },
     {
-      "project-image-url": "https://pontofiel.com.br/wp-content/uploads/2025/01/Captura-de-tela-2025-01-06-125543.png",
+      "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-15-141748.png",
       "project-name": "Site Institucional",
       "project-desc": "React JS + Vue",
       "project-url": "https://gridsites.com.br"
     }, 
     {
-      "project-image-url": "https://pontofiel.com.br/wp-content/uploads/2025/01/Captura-de-tela-2025-01-09-091642.png",
+      "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-15-142348.png",
       "project-name": "Landing Page - Sistema de Pontos",
       "project-desc": "Wordpress + Elementor",
-      "project-url": "https://pontofiel.com.br/"
+      "project-url": "https://gsrsistemas.com/"
     },
     {
-      "project-image-url": "https://www.gsrsistemas.com/wp-content/uploads/2024/11/sitegsr.png",
-      "project-name": "Landing Page",
-      "project-desc": "HTML, CSS e Javascript",
-      "project-url": "https://gsrsistemas.com"
+      "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-15-142117.png",
+      "project-name": "Mini Site para Afiliados",
+      "project-desc": "Wordpress + Elementor Pro + Jet Engine + Crocoblock",
+      "project-url": "https://achadinnapromo.gridsites.com.br/"
     },
     {
       "project-image-url": "http://lp.gridsites.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-03-18-095458.png",
       "project-name": "Plataforma de Venda de Carros com Painel Personalizado",
-      "project-desc": "Wordpress, Elementor, Crocoblock",
-      "project-url": "https://mcmveiculosjf.com.br/"
+      "project-desc": "Wordpress + Elementor Pro + Jet Engine + Crocoblock",
+      "project-url": "https://veiculos.gridsites.com.br/"
     }
 
 
