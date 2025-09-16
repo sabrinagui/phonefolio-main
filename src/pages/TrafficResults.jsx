@@ -2,15 +2,17 @@ import React from 'react';
 import { getConfigData } from "../data/configReader";
 import MetricsCard from '../components/MetricsCard';
 import CaseStudyCard from '../components/CaseStudyCard';
+import trafegopago1 from '../assets/trafegopago1.png';
+import trafegopago2 from '../assets/trafegopago2.png';
 
 export default function TrafficResults() {
   const configData = getConfigData();
 
   const metrics = [
     {
-      title: "ROAS Médio",
-      value: "3.8x",
-      description: "Retorno sobre investimento em anúncios"
+      title: "155 mil impressões alcançadas",
+      value: "+1.090",
+      description: "contatos no WhatsApp"
     },
     {
       title: "Crescimento",
@@ -18,32 +20,32 @@ export default function TrafficResults() {
       description: "Aumento médio em vendas"
     },
     {
-      title: "Contas Gerenciadas",
-      value: "50+",
-      description: "Clientes atendidos com sucesso"
+      title: "Redução de",
+      value: "40%",
+      description: "no custo por aquisição"
     }
   ];
 
   const cases = [
     {
+      title: "Campanha de Leads via WhatsApp",
+      results: [
+        "1.090 conversões (contatos diretos)",
+        "Custo médio por lead: R$ 4,59",
+        "Mais de 155 mil impressões"
+      ],
+      period: "19 meses",
+      image: trafegopago1
+    },
+    {
       title: "E-commerce de Moda",
       results: [
-        "Aumento de 180% em vendas",
+        "+180% em vendas",
         "Redução de 40% no custo por aquisição",
         "ROAS de 4.2x"
       ],
-      period: "3 meses",
-      image: "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/case-1.jpg"
-    },
-    {
-      title: "Serviços de Consultoria",
-      results: [
-        "300 leads qualificados/mês",
-        "Taxa de conversão de 15%",
-        "ROI de 320%"
-      ],
       period: "6 meses",
-      image: "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/case-2.jpg"
+      image: trafegopago2
     }
   ];
 
@@ -61,11 +63,10 @@ export default function TrafficResults() {
       <div className="px-7 py-7 flex flex-col gap-y-6">
         <div className="max-w-3xl">
           <h1 className="text-4xl font-semibold mb-4 tracking-tighter">
-            Transformando Investimento em Resultados
+            Gestão de Tráfego Pago no Google Ads e Meta Ads
           </h1>
           <p className="text-lg text-gray-500 font-normal">
-            Especialista em tráfego pago com foco em ROI e crescimento mensurável.
-            Estratégias personalizadas para cada negócio, garantindo os melhores resultados.
+            Mais leads, vendas e crescimento para o seu negócio com campanhas inteligentes.
           </p>
         </div>
       </div>
