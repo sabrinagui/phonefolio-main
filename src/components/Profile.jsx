@@ -61,12 +61,22 @@ export default function Profile() {
 
   {/* Avatar */}
   <div className="flex justify-center md:justify-end flex-1 mb-7 md:mb-0">
-    <div className="w-44 h-44 rounded-full bg-gradient-to-b from-gray-100 to-gray-300 border-2 flex items-center justify-center shadow-md">
-     <img
-  src={profile}
-  alt="Sabrina Mesquita"
-  className="w-40 h-40 rounded-full object-contain bg-white p-1"
-/>
+    <div className="relative group cursor-pointer">
+      {/* Anel de gradiente sutil */}
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-full blur-sm opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
+      
+      {/* Container principal do avatar */}
+      <div className="relative w-44 h-44 rounded-full bg-gradient-to-b from-gray-100 to-gray-300 border-2 border-white flex items-center justify-center shadow-lg transform transition-all duration-700 group-hover:scale-110 animate-float">
+        {/* Imagem do avatar */}
+        <img
+          src={profile}
+          alt="Sabrina Mesquita - Desenvolvedora Front-end"
+          className="w-40 h-40 rounded-full object-contain bg-white p-1 transition-transform duration-500 group-hover:scale-105"
+        />
+        
+        {/* Overlay de brilho sutil no hover */}
+        <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white to-transparent opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+      </div>
     </div>
   </div>
 </div>

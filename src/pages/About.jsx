@@ -13,7 +13,7 @@ export default function About() {
           About
         </h1>
       </div>
-      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
+      <div className="px-7 py-7 flex flex-col pt-3">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             Esta é {configData.name}
@@ -21,7 +21,20 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 w-full max-w-sm mx-auto md:max-w-xs" src="https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Design-sem-nome-1.png" alt="SabrinaAvatar" /> 
+          
+          {/* Foto melhorada abaixo do texto */}
+          <div className="flex justify-center mt-6">
+            <div className="relative group">
+              <div className="relative w-full max-w-sm mx-auto bg-gradient-to-b from-gray-50 to-gray-100 rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:shadow-xl">
+                <img 
+                  className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105" 
+                  src="https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Design-sem-nome-1.png" 
+                  alt="Sabrina Mesquita - Desenvolvedora Front-end e Especialista em Tráfego Pago" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-transparent to-transparent"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
