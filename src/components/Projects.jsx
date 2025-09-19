@@ -1,9 +1,15 @@
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
+import clinicamedicaImg from "../assets/clinicamedica.png";
 
 export default function Card() {
   const configData = getConfigData();
   const projects = configData.projects;
+
+  // Mapeamento de imagens locais
+  const localImages = {
+    "./src/assets/clinicamedica.png": clinicamedicaImg,
+  };
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -66,7 +72,7 @@ export default function Card() {
                 <div className="w-16 h-16 rounded-full overflow-hidden border border-gray-200 flex items-center justify-center mb-3 md:mb-0">
                   <img
                     className="w-full h-full aspect-square object-cover"
-                    src={project["project-image-url"]}
+                    src={localImages[project["project-image-url"]] || project["project-image-url"]}
                     alt={project["project-name"]}
                   />
                 </div>

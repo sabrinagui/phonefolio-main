@@ -25,6 +25,12 @@
   "hireMeLink": "https://wa.me/5598988925194",
   "projects": [
     {
+      "project-image-url": "./src/assets/clinicamedica.png",
+      "project-name": "Site Para Clínica Médica",
+      "project-desc": "React JS + Tailwind CSS + Vite",
+      "project-url": "https://site-clinica-rosy.vercel.app/"
+    },
+    {
       "project-image-url": "https://veiculos.gridsites.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-15-142809.png",
       "project-name": "Site Institucional Multilíngue",
       "project-desc": "Wordpress + Elementor Pro + Jet Engine + Crocoblock",
